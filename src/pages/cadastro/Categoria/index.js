@@ -31,9 +31,10 @@ function CadastroCategoria() {
 
   useEffect(() => {
     // console.log('alo alo w brasil');
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'https://fadulflix.herokuapp.com/categorias' : 'http://localhost:8080/categorias';
     fetch(URL_TOP)
-      .then(async (retorno) => { 
+      .then(async (retorno) => {
         const resposta = await retorno.json();
         // console.log(resposta);
         setCategorias([
