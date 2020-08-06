@@ -1,6 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
@@ -105,12 +106,12 @@ function CadastroCategoria() {
           </thead>
           <tbody>
             {categorias.map((categoria, indice) => (
-              <tr key={`${categoria}${indice}`} >
+              <tr key={`${categoria}${indice}`}>
                 <td>{categoria.id}</td>
                 <td><input type="color" value={categoria.cor} readOnly /></td>
                 <td>{categoria.titulo}</td>
                 <td>{categoria.descricao}</td>
-                <td>x</td>
+                <td><FontAwesomeIcon icon="edit" className="edit" /></td>
                 <td>x</td>
               </tr>
             ))}

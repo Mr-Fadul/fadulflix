@@ -70,10 +70,10 @@ function CadastroVideo() {
         <Button type="submit">
           Cadastrar
         </Button>
+        <Button to="/cadastro/categoria" as={Link} className="ButtonLink" style={{ float: 'right', background: '#008B8B' }}>
+          Cadastrar Categoria
+        </Button>
       </form>
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
     </PageDefault>
   );
 }

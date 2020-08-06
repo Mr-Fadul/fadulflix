@@ -3,6 +3,7 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import categoriasRepository from '../../repositories/categorias';
 import PageDefault from '../../components/PageDefault';
+import Load from '../../assets/img/dito.gif';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
@@ -21,8 +22,9 @@ function Home() {
   return (
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (
-      <div>
-        Loading...
+      <div style={{with: '100%', alignContent: 'center', padding: '50px'}}>
+        <p>Loading...</p>
+        <img src={Load} alt="load" style={{with: '100%'}} />
       </div>
       )}
 

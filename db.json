@@ -1,74 +1,252 @@
 {
   "categorias": [
     {
-      "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "titulo": "LARICA DO ÓDIO",
+      "descricao": "Esse programa é pra você mesmo. Pra você que não quer fazer absolutamente nada pra ajudar em casa nessa quarentena.",
+      "cor": "#bf2222",
+      "id": 1
     },
     {
-      "titulo": "Back End",
-      "descricao": "Vídeos sobre Back End",
-      "cor": "#970c0c",
+      "titulo": "Paródias e Redublagens ",
+      "descricao": "Redublagens dos animes na versão baiana",
+      "cor": "#5c27be",
       "id": 2
     },
     {
-      "titulo": "Games",
-      "descricao": "Gameplays, reviews e trailers dos games do momento, ou não...",
-      "cor": "#190fa9",
+      "titulo": "Stand Up Comedy",
+      "descricao": "Stand Up Comedy João Pimenta",
+      "cor": "#f2eb0d",
       "id": 3
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "descricao": "Dicas de aprendizado sobre tecnologia",
-      "cor": "#ae20b1",
+      "titulo": "Paródias de filmes e séries ",
+      "descricao": "Paródias dos filmes e sérias da cultura geek",
+      "cor": "#17c45c",
       "id": 4
     }
   ],
   "videos": [
     {
-      "id": 1,
+      "titulo": "TORTA DE LIMÃO  - #38",
+      "url": "https://youtu.be/fLxI-waFBS8?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "id": 1
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "titulo": "MACARRÃO DE FORNO CREMOSÃO - LARICA DO ÓDIO #37",
+      "url": "https://www.youtube.com/watch?v=yPek0PCcK3s&list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
       "categoriaId": 1,
       "id": 2
     },
     {
-      "titulo": "As Skills de um Desenvolvedor Front-End",
-      "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE",
+      "titulo": "BRIGADEIRO DE LEITE NINHO - LARICA DO ÓDIO #36",
+      "url": "https://www.youtube.com/watch?v=f32cTO6Zqj0&list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
       "categoriaId": 1,
       "id": 3
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "titulo": "MOQUECA DE CARNE SECA COM BANANA DA TERRA - LARICA DO ÓDIO #35",
+      "url": "https://youtu.be/L76Jb0rwCMQ?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
       "id": 4
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 2,
+      "titulo": "MACARRÃO BOLONHESA - LARICA DO ÓDIO #34",
+      "url": "https://youtu.be/Dn10mn81mQI?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
       "id": 5
     },
     {
-      "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido) ",
-      "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI",
-      "categoriaId": 2,
+      "titulo": "SEQUILHO PRA LANCHAR - LARICA DO ÓDIO #33",
+      "url": "https://youtu.be/yydt-_OBW5U?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
       "id": 6
     },
     {
-      "titulo": "O que estudar antes de tentar aprender um Framework JavaScript? (React, Angular, Vue)",
-      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI",
-      "categoriaId": 4,
+      "titulo": "ENROLADINHO - LARICA DO ÓDIO #31",
+      "url": "https://youtu.be/TD-DLfp6mLw?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
       "id": 7
+    },
+    {
+      "titulo": "HAMBÚRGUER DE QUEIJO COALHO E MELAÇO - LARICA DO ÓDIO #30",
+      "url": "https://youtu.be/HShzb1IPUTA?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
+      "id": 8
+    },
+    {
+      "titulo": "BOLO DE CHOCOLATE NORMAL - LARICA DO ÓDIO #29",
+      "url": "https://youtu.be/i1FYnCCxn_E?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
+      "id": 9
+    },
+    {
+      "titulo": "PIPOCA PRA COMER VENDO FILME OU O QUE VOCÊ QUISER - LARICA DO ÓDIO #28",
+      "url": "https://youtu.be/uZvdLYc1ya4?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
+      "id": 10
+    },
+    {
+      "titulo": "OMELETE DAQUELE JEITÃO - LARICA DO ÓDIO #27",
+      "url": "https://youtu.be/I4BX4C90kjs?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
+      "id": 11
+    },
+    {
+      "titulo": "HAMBÚRGUER - LARICA DO ÓDIO #26",
+      "url": "https://youtu.be/409v04Aay3M?list=PLDLRDzIPgl7BVAlT0tBJIhYB2j2RkBp_n",
+      "categoriaId": 1,
+      "id": 12
+    },
+    {
+      "titulo": "JOJO'S BAIANO ADVENTURE - JOTÁRIO VS DIOGO ",
+      "url": "https://www.youtube.com/watch?v=UhdhQTcslmo",
+      "categoriaId": 2,
+      "id": 13
+    },
+    {
+      "titulo": "E SE DEATH NOTE FOSSE NA BAHIA? #03 - QUEM É BIRA?",
+      "url": "https://www.youtube.com/watch?v=DJYQLHU4wVA",
+      "categoriaId": 2,
+      "id": 14
+    },
+    {
+      "titulo": "E SE ONE PUNCH MAN FOSSE NA BAHIA? 02 - SAICANA VS GENÁRIO",
+      "url": "https://www.youtube.com/watch?v=9Kw_SQrJhZU",
+      "categoriaId": 2,
+      "id": 15
+    },
+    {
+      "titulo": "E SE DEATH NOTE FOSSE NA BAHIA?",
+      "url": "https://www.youtube.com/watch?v=61m-muha6R4",
+      "categoriaId": 2,
+      "id": 16
+    },
+    {
+      "titulo": "E SE OS CAVALEIROS DO ZODÍACO FOSSE NA BAHIA?",
+      "url": "https://www.youtube.com/watch?v=z7ezeky9SLI",
+      "categoriaId": 2,
+      "id": 17
+    },
+    {
+      "titulo": "E SE DEATH NOTE FOSSE NA BAHIA? EPISÓDIO 02",
+      "url": "https://www.youtube.com/watch?v=nyMjhaBFej4",
+      "categoriaId": 2,
+      "id": 18
+    },
+    {
+      "titulo": "E SE DR. STONE FOSSE NA BAHIA?",
+      "url": "https://www.youtube.com/watch?v=7Ux31X37lr4",
+      "categoriaId": 2,
+      "id": 19
+    },
+    {
+      "titulo": "E SE NARUTO SHIPPUDEN FOSSE NA BAHIA? BAGACE VS FURICO",
+      "url": "https://www.youtube.com/watch?v=bzShnG_rcGU",
+      "categoriaId": 2,
+      "id": 20
+    },
+    {
+      "titulo": "E SE JOJO'S BIZARRE ADVENTURE FOSSE NA BAHIA?",
+      "url": "https://www.youtube.com/watch?v=PKwM6dc8i2c",
+      "categoriaId": 2,
+      "id": 21
+    },
+    {
+      "titulo": "E SE NANATSU NO TAIZAI FOSSE NA BAHIA? - LASCANOR: O LASCADOR",
+      "url": "https://www.youtube.com/watch?v=Vv-OGuBkAJ0",
+      "categoriaId": 2,
+      "id": 22
+    },
+    {
+      "titulo": "E SE BOKU NO HERO FOSSE NA BAHIA? #04: MISÉRIA VS SHITAKI",
+      "url": "https://www.youtube.com/watch?v=ZMu1vz1BBQk",
+      "categoriaId": 2,
+      "id": 23
+    },
+    {
+      "titulo": "E SE NANATSU NO TAIZAI FOSSE NA BAHIA? - MELIFODASSE VS LASCANOR",
+      "url": "https://www.youtube.com/watch?v=JhS9Ya-9k90",
+      "categoriaId": 2,
+      "id": 24
+    },
+    {
+      "titulo": "SUPERSTIÇÕES",
+      "url": "https://www.youtube.com/watch?v=2v6FZoxLRMA",
+      "categoriaId": 3,
+      "id": 25
+    },
+    {
+      "titulo": "O CARNAVAL DE SALVADOR É INSANO",
+      "url": "https://www.youtube.com/watch?v=Q7bdJKNvWM8",
+      "categoriaId": 3,
+      "id": 26
+    },
+    {
+      "titulo": "MAINHA 3: A GENIALIDADE MATERNA",
+      "url": "https://www.youtube.com/watch?v=VrqjQ_44n-o",
+      "categoriaId": 3,
+      "id": 27
+    },
+    {
+      "titulo": "SOBREVIVI AOS ANOS 90",
+      "url": "https://www.youtube.com/watch?v=bxn6FwKw42c",
+      "categoriaId": 3,
+      "id": 28
+    },
+    {
+      "titulo": "COMIDA VEGANA OU FAST FOOD?",
+      "url": "https://www.youtube.com/watch?v=yOTOTRmnAws",
+      "categoriaId": 3,
+      "id": 29
+    },
+    {
+      "titulo": "SORVETE ERÓTICO ",
+      "url": "https://www.youtube.com/watch?v=nyCVoHBKdKw&list=RDyOTOTRmnAws",
+      "categoriaId": 3,
+      "id": 30
+    },
+    {
+      "titulo": "BIFE DE FÍGADO E VILÃO DE ANIME",
+      "url": "https://www.youtube.com/watch?v=1tMiUEPL1AY",
+      "categoriaId": 3,
+      "id": 31
+    },
+    {
+      "titulo": "E SE VINGADORES FOSSE NA BAHIA? - LASCADORES DA QUARENTENA",
+      "url": "https://www.youtube.com/watch?v=5-WFYlWRlJ0",
+      "categoriaId": 4,
+      "id": 32
+    },
+    {
+      "titulo": "E SE A LIGA DA JUSTIÇA FOSSE NA BAHIA? - CORINGAVÍRUS ",
+      "url": "https://www.youtube.com/watch?v=foP5ueExaaE&list=RD5-WFYlWRlJ0",
+      "categoriaId": 4,
+      "id": 33
+    },
+    {
+      "titulo": "E SE THE WITCHER FOSSE NA BAHIA?",
+      "url": "https://www.youtube.com/watch?v=4OHEkw8NSf4&list=RD5-WFYlWRlJ0",
+      "categoriaId": 4,
+      "id": 34
+    },
+    {
+      "titulo": "E SE VINGADORES FOSSE NA BAHIA? HULK VS THANOS",
+      "url": "https://www.youtube.com/watch?v=8Lg-1G8nEjc&list=RD5-WFYlWRlJ0",
+      "categoriaId": 4,
+      "id": 35
+    },
+    {
+      "titulo": "E SE O HOMEM ARANHA FOSSE NA BAHIA? #02 - Extraindo dente na mão!",
+      "url": "https://www.youtube.com/watch?v=GgeX6CgSiOw&list=RD5-WFYlWRlJ0",
+      "categoriaId": 4,
+      "id": 36
+    },
+    {
+      "titulo": "E SE O HOMEM ARANHA FOSSE NA BAHIA? #03 - Longe de Cajazeiras",
+      "url": "https://youtu.be/znHXO1_xYW0?list=RD5-WFYlWRlJ0",
+      "categoriaId": 4,
+      "id": 37
     }
   ]
 }

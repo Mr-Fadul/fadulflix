@@ -42,8 +42,22 @@ function create(objetoCategoria) {
       throw new Error('Não foi possível cadastrar os dados :(');
     });
 }
+
+const remove = (id: number) => {
+    return fetch(`${URL_CATEGORIES}/${id}`, {
+      method: 'DELETE'
+    }).then(async (respostaDoServidor) => {
+      if (respostaDoServidor.ok) {
+        const resposta = await respostaDoServidor.json()
+        return resposta
+      }
+  
+      throw new Error('Não foi possível remover os dados :(')
+    })
+  }
 export default {
   getAllWithVideos,
   getAll,
   create,
+  remove,
 };
