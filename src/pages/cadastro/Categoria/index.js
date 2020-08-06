@@ -14,7 +14,7 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const { handlerChange, values, clearForm} = useForm(valoresIniciais);
+  const { handlerChange, values, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ function CadastroCategoria() {
         setCategorias(categoriasFromServer);
       });
   }, []);
-  console.log(categorias);
+  // console.log(categorias);
   return (
     <PageDefault>
       <h1>
@@ -75,24 +75,48 @@ function CadastroCategoria() {
         <Button>
           Cadastrar
         </Button>
+        <Button as={Link} className="ButtonLink" to="/" style={{ float: 'right' }}>
+          Ir para home
+        </Button>
       </form>
+
       {categorias.length === 0 && (
       <div>
         Loading...
       </div>
       )}
 
-      <ul>
+      {/* <ul>
         {categorias.map((categoria, indice) => (
           <li key={`${categoria}${indice}`}>
             {categoria.titulo}
           </li>
         ))}
-      </ul>
-
-      <Link to="/">
-        Ir para home
-      </Link>
+      </ul> */}
+      <div style={{ padding: '20px' }}>
+        <table style={{ border: 'solid', width: '100%' }}>
+          <thead>
+            <th>Id</th>
+            <th>Cor</th>
+            <th>Titulo</th>
+            <th>Descrição</th>
+            <th>Edit</th>
+            <th>Del</th>
+          </thead>
+          <tbody>
+            {categorias.map((categoria, indice) => (
+              <tr key={`${categoria}${indice}`} >
+                <td>{categoria.id}</td>
+                <td><input type="color" value={categoria.cor} readOnly /></td>
+                <td>{categoria.titulo}</td>
+                <td>{categoria.descricao}</td>
+                <td>x</td>
+                <td>x</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </PageDefault>
   );
 }
