@@ -1,16 +1,74 @@
 {
-  "categorias":[
+  "categorias": [
     {
       "id": 1,
-      "nome": "Front End",
-      "descricao": "Uma categoria show de bola",
-      "cor": "#cbd1ff"
+      "titulo": "Front End",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
     },
     {
-      "id": 2,
-      "nome": "Back End",
-      "descricao": "Uma categoria mais show de bola ainda",
-      "cor": "#cbd1ff"
+      "titulo": "Back End",
+      "descricao": "Vídeos sobre Back End",
+      "cor": "#970c0c",
+      "id": 2
+    },
+    {
+      "titulo": "Games",
+      "descricao": "Gameplays, reviews e trailers dos games do momento, ou não...",
+      "cor": "#190fa9",
+      "id": 3
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "descricao": "Dicas de aprendizado sobre tecnologia",
+      "cor": "#ae20b1",
+      "id": 4
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "categoriaId": 1,
+      "id": 2
+    },
+    {
+      "titulo": "As Skills de um Desenvolvedor Front-End",
+      "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "id": 4
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "categoriaId": 2,
+      "id": 5
+    },
+    {
+      "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido) ",
+      "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI",
+      "categoriaId": 2,
+      "id": 6
+    },
+    {
+      "titulo": "O que estudar antes de tentar aprender um Framework JavaScript? (React, Angular, Vue)",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI",
+      "categoriaId": 4,
+      "id": 7
     }
   ]
 }
