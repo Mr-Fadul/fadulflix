@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { useState } from 'react';
 
 function useForm(valoresIniciais) {

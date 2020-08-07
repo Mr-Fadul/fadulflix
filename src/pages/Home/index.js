@@ -22,9 +22,9 @@ function Home() {
   return (
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (
-      <div style={{with: '100%', alignContent: 'center', padding: '50px'}}>
+      <div style={{ with: '100%', alignContent: 'center', padding: '50px' }}>
         <p>Loading...</p>
-        <img src={Load} alt="load" style={{with: '100%'}} />
+        <img src={Load} alt="load" style={{ with: '100%' }} />
       </div>
       )}
 
